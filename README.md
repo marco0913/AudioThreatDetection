@@ -193,9 +193,9 @@ Work ran approximately 10:30 AM -- 11:00 PM (~12.5 hours wall clock, ~10 hours a
 |-------|------|------|
 | Planning & design | ~1 hr | Read task PDF, schema design, architecture decisions, documentation scaffold |
 | Phase 1: Scaffold | ~1 hr | Stub pipeline, real publisher/subscriber, E2E validation, Windows encoding fixes |
-| Phase 2: Audio | ~3 hr | Ingestion, audio features (numpy), VAD segmenter, corpus validation |
+| Phase 2: Audio | ~3 hr | Ingestion, audio feature notebook + plots, audio features (numpy), VAD segmenter, corpus validation |
 | Phase 3: AI pipeline | ~2 hr | Whisper transcriber, keyword heuristics, LLM structured output detector, fusion weights, incident manager. Prompt iteration for is_directed classification. |
-| Phase 4: Tests & polish | ~2 hr | 63 automated tests (audio_features, fusion, incident_manager, e2e), audio feature notebook + plots, README finalization, retrospective |
+| Phase 4: Tests & polish | ~2 hr | 63 automated tests (audio_features, fusion, incident_manager, e2e), README finalization, retrospective |
 | Bonus A: Audio emotion | ~45 min | GPT-4o audio-preview integration, fusion bonus weight, env var opt-in |
 | Final review & cleanup | ~1 hr | Known limitations analysis, submission review, doc cleanup |
 | Breaks / context switches | ~2 hr | Lunch, short breaks |
